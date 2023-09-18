@@ -1,18 +1,8 @@
 # smart_fire_alert
 
+## **Projeto de Bloco: Sistemas Digitais Embarcados**
 
-**Curso de engenharia da computação**
-
-**Aluno: Marcos Cassiano de Souza**
-
-**Teste de Performance 9 -**
-
-**Projeto de Bloco: Sistemas Digitais Embarcados**
-
-**Prof.: Edgar jose Garcia Neto Segundo**
-
-**Rio de Janeiro 09/2023**
-
+## **Prof.: Edgar jose Garcia Neto Segundo**
 
 1. **Função do Projeto**
 
