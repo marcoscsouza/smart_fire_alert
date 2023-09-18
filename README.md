@@ -14,11 +14,6 @@
 
 **Rio de Janeiro 09/2023**
 
-**Índice**
-
-**Sistema embarcado …………………………..………………………………… 3-6 Função do projeto ………….…………..…………………………………… 3 Motivação do projeto ………………….…………………………………… 3 Funcionamento do projeto ….………..…………………………………… 3 Comparativo do projeto …………………………………………….……… 3 Componentes do projeto …..……………………………………….…… 4-5**
-
-**CPU do projeto ……….……………………………………………………… 6 Diagramas ………………………………………………………………………… 6-9 Descrição dos sensores ..……………………………………………………… 10 Controle dos dispositivos ..………………………………………………… 10-11 Tipo de funcionamento …….…………………………………………… 10 Outros tipos de sensores ……………………………………………… 10 Alimentação do circuito ………………………………………………… 11 Processamento ……..……………………………………………………..……… 11 Ponto único de falha ………………………………………………..…………… 12 Bibliografia ………………………………………………………………………… 13**
 
 1. **Função do Projeto**
 
@@ -47,24 +42,24 @@ No mercado atual existem sistemas como o da intelbras de detector de fumaça int
 
 |**Componentes**|**Valor Por UND**|**IMAGEM**|
 | - | - | - |
-|ESP32 NodeMCU|R$: 65,00|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.002.jpeg)|
-|Sensor de Chama KY-026|R$:10,00|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.003.jpeg)|
-|Sensor de Fumaça MQ-2|R$: 19,86|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.004.jpeg)|
-|Mini Sensor De Movimento Presença Pir Hc-sr505 P/ Arduino|R$: 14,00|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.005.jpeg)|
-|Buzzer|R$:3,66|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.006.jpeg)|
-|ProtoBoard|R$:18,90|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.007.jpeg)|
-|Kit Jumper|R$:0,18|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.008.jpeg)|
-|Led 5mm|R$:0,21|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.009.jpeg)|
-|Resistor 1K|R$:0,04|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.010.jpeg)|
+|ESP32 NodeMCU|R$: 65,00|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.002.jpeg)|
+|Sensor de Chama KY-026|R$:10,00|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.003.jpeg)|
+|Sensor de Fumaça MQ-2|R$: 19,86|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.004.jpeg)|
+|Mini Sensor De Movimento Presença Pir Hc-sr505 P/ Arduino|R$: 14,00|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.005.jpeg)|
+|Buzzer|R$:3,66|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.006.jpeg)|
+|ProtoBoard|R$:18,90|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.007.jpeg)|
+|Kit Jumper|R$:0,18|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.008.jpeg)|
+|Led 5mm|R$:0,21|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.009.jpeg)|
+|Resistor 1K|R$:0,04|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.010.jpeg)|
 |Total por unidade|R$:117,85||
 
 
 |**SOFTWARE**|**LINK**|**IMAGEM**|**DESCRIÇÃO**|
 | - | - | - | - |
-|BLYNK|https://blynk.io/|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.011.jpeg)|API para comunicação com a WEB e diversos outros serviços.|
-|ARDUINO IDE|https://www.arduino.cc /en/software|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.012.jpeg)|IDE de desenvolvimento para componentes arduino.|
-|WOKWI|https://wokwi.com/|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.013.jpeg)|Simulador online de componentes para testes.|
-|FRITZING|https://fritzing.org/|![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.014.jpeg)|Montar esquema elétricos.|
+|BLYNK|https://blynk.io/|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.011.jpeg)|API para comunicação com a WEB e diversos outros serviços.|
+|ARDUINO IDE|https://www.arduino.cc /en/software|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.012.jpeg)|IDE de desenvolvimento para componentes arduino.|
+|WOKWI|https://wokwi.com/|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.013.jpeg)|Simulador online de componentes para testes.|
+|FRITZING|https://fritzing.org/|![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.014.jpeg)|Montar esquema elétricos.|
 
 6. **Qual Processador utilizar**
 
@@ -76,19 +71,19 @@ Justificativa: Os principais motivos da escolha do **ESP32** no lugar do **Ardui
 
 **2 Diagrama de Blocos e Funcional do projeto**
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.015.png)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.015.png)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.016.jpeg)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.016.jpeg)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.017.jpeg)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.017.jpeg)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.018.jpeg)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.018.jpeg)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.019.jpeg)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.019.jpeg)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.020.jpeg)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.020.jpeg)
 
-![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.021.jpeg) ![](Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.022.png)
+![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.021.jpeg) ![](Marcos_Cassiano_PB_TP9/Aspose.Words.b7059aae-f20a-47cf-839c-13711704c849.022.png)
 
 **3 Quais os tipos de sensores que serão utilizados no projeto**
 
